@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Struts 2-2.5.14.1" type="struts2">
+    <properties version="2.5.14.1" />
+    <CLASSES>
+      <root url="file://E:/JAVAsoftware/struts2core" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://E:/JAVAsoftware/struts2core" recursive="false" />
+  </library>
+</component>

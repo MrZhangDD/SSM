@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <!--指定web应用的默认编码-->
+    <constant name="struts.i18n.encoding" value="utf-8"/>
+    <!--设置文件上传大小-->
+    <constant name="struts.multipart.maxSize" value="500000000000"/>
+    <!--设置spring是否自动装配创建对象-->
+    <constant name="struts.objectFactory.spring.autoWire.alwaysRespect" value="true"/>
+    <!--自动动态方法的调用-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <!--设置成开发模式，发布时设置为false-->
+    <constant name="struts.devMode" value="true"/>
+    <package name="default" extends="struts-default">
+        <action name="loginAction" class="com.cxx.mavenssm.action.base.LoginAction">
+            <result name="login">/WEB-INF/fname/login.jsp</result>
+        </action>
+    </package>
+
+
+
+
+</struts>
